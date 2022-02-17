@@ -1,0 +1,35 @@
+.home-welcome {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-welcome > h1 {
+  text-align: center;
+}
+
+.home-welcome > p {
+  background-color: beige;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.home-quote {
+  background-color: beige;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  height: 100%;
+}
+
+.home-photos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+}
+
+
+
+

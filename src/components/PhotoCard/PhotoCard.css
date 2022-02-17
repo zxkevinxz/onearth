@@ -1,0 +1,48 @@
+.PhotoCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 300px;
+  width: 400px;
+  background-color: beige;
+  border-radius: 10px;
+  border: 1px solid #fafa6d;
+  margin: 10px 10px;
+  box-shadow: 1px 1px rgb(3, 121, 255);
+  padding: 20px;
+}
+
+.PhotoCard > .LeftContainer {
+  width: 200px;
+  height: 100%;
+  display: flex;
+}
+
+.PhotoCard > .LeftContainer > img {
+  align-self: center;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+.PhotoCard > .RightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(224, 229, 231, 0.842);
+  height: 100%;
+  width: 200px;
+}
+
+.PhotoCard > .RightContainer > h1 {
+  display: flex;
+  text-align: center;
+}
+
+.PhotoCard > .RightContainer > p {
+  text-align: center;
+  padding: 15px;
+}
