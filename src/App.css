@@ -23,9 +23,10 @@
 .header-menu {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   height: 100%;
+  width: 100%;
 }
 
 .header-menu > ul {
@@ -39,6 +40,16 @@
 .header-menu > ul > li {
   display: flex;
   text-align: start;
+}
+
+.header-menu > ul > li > a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.header-menu > ul > li > .active {
+  color: rgb(162, 241, 4);
 }
 
 .header-logo > img {

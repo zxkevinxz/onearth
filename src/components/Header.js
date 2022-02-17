@@ -8,19 +8,19 @@ export function Header() {
       <nav className="header-menu">
         <ul>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>HOME</NavLink>
           </li>
           <li>
-            <NavLink to="/lily">Lily</NavLink>
+            <NavLink to="/lily" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>LILY</NavLink>
           </li>
           <li>
-            <NavLink to="/games">Games</NavLink>
+            <NavLink to="/games" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>GAMES</NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>ABOUT</NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>CONTACT</NavLink>
           </li>
         </ul>
       </nav>
